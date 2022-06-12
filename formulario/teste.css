@@ -1,0 +1,7 @@
+a{
+    color: rgb(253, 93, 0);
+}
+
+p:first-child i {
+    color: red;
+}

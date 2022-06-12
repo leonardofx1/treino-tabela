@@ -1,0 +1,35 @@
+.table-inicial{
+    background-color: darkcyan;
+    border: 1px black solid;
+    position: absolute;
+    display: inline-block;
+    margin: 100px;
+   
+}
+.tamanho{
+    
+    border: black solid 1px;
+    color: white;
+    width: 95px;
+    height: 15px;
+    text-align: center;
+   
+    
+}
+.tamanho:hover{
+    background-color: darkmagenta;
+    width: 100px;
+    color: black;
+    transition: 2s all;
+    
+}
+table{
+    display: inline-block;
+    border:  black solid 1px;
+    background-color: rgb(184, 109, 177);
+    vertical-align: top;
+}
+.tamanho2{
+   
+    background-color: rgb(116, 78, 116);
+}

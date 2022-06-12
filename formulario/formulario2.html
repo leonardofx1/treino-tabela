@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #f3f3fd;
+    }
+
+    html {
+        background: black;
+    }
+
+    div {
+        display: flex;
+        width: 550px;
+        height: 350px;
+        background-color: darkgoldenrod;
+    }
+
+    input {
+        border-radius: 10px;
+        margin: 5px 0 0 10px;
+    }
+
+    label {
+        font-size: 4vh;
+        font-weight: bold;
+        border: black solid 1px;
+    }
+
+    #labell {
+        text-shadow: 50px;
+        border: black solid 1px;
+        display: inline-block;
+    }
+</style>
+
+<body>
+    <h1>criando um formulario</h1>
+    <div>
+        <form action="#">
+            <label for="Date">Data</label>
+            <input type="date" name="Date"><br>
+            <label for="cor">Qual sua cor favorita</label>
+            <input type="color" name="cor" id="" value="#00FF00"><br>
+            <label for="email">email:</label>
+            <input type="email" name="email" placeholder="ex: email@gmail.com"><br>
+            <label for="tel">Telefone:</label>
+            <input type="tel" name="tel" id=""><br>
+            <label for="enviar">Escolha arquivos para enviar</label>
+            <input type="file" name="enviar" accept="image/*"><br>
+            <input type="reset"><br>
+            <input type="Number" min="5" max="200" step="2">
+
+            <p>
+                <select name="selecao" id="">
+                    <option value="valor1">tipo pritivo</option>
+                    <option value="valor2">tipo nominal</option>
+                    <option value="valor3">tipo numeral</option>
+                </select>
+            </p>
+
+        </form>
+    </div>
+    <p id="labell">Lorem .</p>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    border: 5px solid black;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 10px 0 10px 400px;
+    display: inline-block;
+    text-align: center;
+    background-color: darkred;
+}
+/* comentario contra ; */
+table {
+    background-color: white;
+    border: 2px solid rgb(63, 59, 59, 0.5);
+    width: 50%;
+    margin: 0 auto;
+}
+table :hover{
+     color: blue;
+
+}
+.primeiro{
+    transition: all 1s ease-in-out;
+    
+}
+
+.primeiro:hover{
+    font-weight: bold;
+    background-color: blueviolet;
+}
+
+thead {
+   background-color: darkgoldenrod
+}
+
+tbody {
+    background-color:darkslategrey;
+}
+
+tr, td{
+    padding: 5px;
+    margin: 1px;
+    border: 2px solid brown;
+    color: rgb(0, 0, 0);
+}
+
+tfoot {
+    background-color: cadetblue;
+}
